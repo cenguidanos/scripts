@@ -1,3 +1,15 @@
+/**
+ * "scripts": {
+ *   "build:win": "pkg index.js --targets latest-win-x86 --output ./customname.exe"
+ * },
+ * "devDependencies": {
+ *   "pkg": "4.4.9"
+ * },
+ * "dependencies": {
+ *   "axios": "0.21.1",
+ *   "prettier": "2.2.1"
+ * }
+ */
 const axios = require('axios')
 const path = require('path')
 const fs = require('fs')
@@ -47,3 +59,4 @@ function main() {
 }
 
 main()
+
