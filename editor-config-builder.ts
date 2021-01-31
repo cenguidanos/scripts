@@ -1,4 +1,4 @@
-// deno run --unstable --allow-read --allow-net --allow-write .\index.ts --dir=
+// deno compile --unstable --allow-read --allow-net --allow-write .\index.ts
 import { parse } from 'https://deno.land/std@0.85.0/flags/mod.ts'
 import { join } from 'https://deno.land/std@0.85.0/path/mod.ts'
 import { ensureDirSync } from 'https://deno.land/std@0.85.0/fs/mod.ts'
