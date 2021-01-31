@@ -8,5 +8,8 @@
 	"prettier.tabWidth": 2,
 	"prettier.useTabs": true,
 	"prettier.trailingComma": "none",
-	"prettier.semi": false
+	"prettier.semi": false,
+	"deno.enable": false,
+	"deno.unstable": false,
+	"deno.lint": false
 }
