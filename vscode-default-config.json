@@ -1,17 +1,43 @@
 {
 	"editor.fontFamily": "'JetBrains Mono Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
 	"editor.fontSize": 16,
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    
 	"prettier.printWidth": 110,
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 2,
 	"prettier.useTabs": true,
 	"prettier.trailingComma": "none",
-	"prettier.semi": false,
+    "prettier.semi": false,
+    
 	"deno.enable": false,
-	"deno.import_intellisense_origins": {
-		"https://deno.land": false
+	"deno.import_intellisense_origins": { "https://deno.land": false },
+    "deno.import_intellisense_autodiscovery": false,
+    
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust"
 	},
-	"deno.import_intellisense_autodiscovery": false
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
