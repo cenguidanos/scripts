@@ -1,4 +1,6 @@
 {
+	"workbench.iconTheme": "vs-minimal",
+	
 	"explorer.sortOrder": "type",
 	"explorer.compactFolders": false,
 
