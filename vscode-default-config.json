@@ -1,6 +1,7 @@
 {
 	"explorer.sortOrder": "type",
 	"explorer.compactFolders": false,
+
 	"editor.fontFamily": "'JetBrains Mono Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
 	"editor.fontSize": 16,
 	"editor.formatOnSave": true,
@@ -11,16 +12,20 @@
 	"editor.cursorBlinking": "phase",
 	"editor.cursorWidth": 3,
 	"editor.tabSize": 2,
+
 	"prettier.printWidth": 110,
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 2,
 	"prettier.useTabs": true,
 	"prettier.trailingComma": "none",
 	"prettier.semi": false,
-	"deno.enable": false,
+
+	"deno.enable": true,
 	"deno.import_intellisense_origins": { "https://deno.land": true },
 	"deno.import_intellisense_autodiscovery": true,
+
 	"rust.rustfmt_path": "~/.cargo/bin/rustfmt",
+
 	"[rust]": { "editor.defaultFormatter": "rust-lang.rust" },
 	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 	"[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
