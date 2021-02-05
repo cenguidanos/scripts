@@ -1,6 +1,8 @@
 {
 	"workbench.iconTheme": "vs-minimal",
 	"search.mode": "newEditor",
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	
 	"explorer.sortOrder": "type",
 	"explorer.compactFolders": false,
