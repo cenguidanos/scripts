@@ -1,8 +1,7 @@
 {
-	"workbench.iconTheme": "vs-minimal",
 	"search.mode": "newEditor",
-	"editor.suggestSelection": "first",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	
+	"workbench.iconTheme": "vs-minimal",
 	"workbench.editor.wrapTabs": true,
 	"workbench.editor.decorations.colors": true,
 	"workbench.editor.decorations.badges": true,
@@ -20,6 +19,7 @@
 	"editor.cursorBlinking": "phase",
 	"editor.cursorWidth": 3,
 	"editor.tabSize": 2,
+	"editor.suggestSelection": "first",
 
 	"prettier.printWidth": 110,
 	"prettier.singleQuote": true,
@@ -31,8 +31,6 @@
 	"deno.enable": false,
 	"deno.import_intellisense_origins": { "https://deno.land": true },
 	"deno.import_intellisense_autodiscovery": true,
-
-	"rust.rustfmt_path": "~/.cargo/bin/rustfmt",
 
 	"[rust]": { "editor.defaultFormatter": "rust-lang.rust" },
 	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
